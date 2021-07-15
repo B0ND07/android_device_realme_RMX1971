@@ -11,8 +11,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # OFFICIAL SPICEOS FLAG
-SPICEOS_BUILDTYPE := OFFICIAL
-TARGET_NO_GAPPS := true
+# SPICEOS_BUILDTYPE := OFFICIAL
+# TARGET_NO_GAPPS := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64

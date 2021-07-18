@@ -5,7 +5,7 @@
 #
 
 # Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/wave/config/common.mk)
+$(call inherit-product, vendor/wave/configs/common.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
